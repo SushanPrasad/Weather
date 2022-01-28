@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* --------------------background */
+.container-fluid{
+    background-image: url(./img/matrix.gif);
+    background-size: cover;
+    height:auto;
+}
+
+.row{
+    padding-top: 8rem;
+    padding-bottom: 14rem;
+    
+}
+/* -----------------------------header */
+.header {
+    background-image: url(./img/earth.gif);
+    background-size: cover;
+    background-position: absolute;
+    color: rgb(12, 11, 6);
+    text-align: center;
+    padding: 9rem 2rem 5rem;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    font-family:'Times New Roman', Times, serif;
+    color:#c8e6c9;  
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-top: -15rem;
+    
+}
+.header p {
+    margin-top: -17rem;
+    font-weight: 800;
+    font-size: 21px;
+    color: #c8e6c9;   
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+.main {
+    background-image: url(./img/sar.gif);
+    
+    
+}
+
+/* --------------------------------input section */
+.inputs {
+    padding: 3rem 3rem 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 30rem;
+    background: #9b7070;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 1px #16a864;
+    color: #16a864;
+    border-radius: 2px;
+    margin-right:4px ;
+    
+}
+.inputs input[type="submit"] {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: #215a3f;
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+}
+
+/* -------------------------------display */
+.display {
+    text-align: center;
+    color: rgb(183, 209, 248);;
+}
+.wrapper {
+    margin: 0 9rem;
+    width: 100%;
+    background-image:url(./img/rain.webp);
+    height: 100% ;
+    margin: 50px auto;
+    border-radius: 2px;
+}
+
+.wrapper h2{
+    padding: 5px 0;
+    text-align: center;
+  }
+  .wrapper p{
+    text-align: center;
+    margin:10px 0;
+    font-size:20px;
+  }
